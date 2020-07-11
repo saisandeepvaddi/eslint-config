@@ -1,6 +1,8 @@
 module.exports = {
+  parser: "babel-eslint",
   parserOptions: {
     ecmaVersion: 2018,
+    allowImportExportEverywhere: true,
   },
   extends: [
     "prettier",

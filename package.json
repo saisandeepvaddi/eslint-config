@@ -1,6 +1,6 @@
 {
   "name": "@saisandeepvaddi/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "files": [
@@ -18,6 +18,7 @@
   "author": "Sai Sandeep Vaddi",
   "license": "MIT",
   "dependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
