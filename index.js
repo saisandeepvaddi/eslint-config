@@ -35,7 +35,16 @@ module.exports = {
     "no-nested-ternary": "off",
     "consistent-return": "off",
     "no-use-before-define": "error",
-    "prettier/prettier": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        singleQuote: false,
+        printWidth: 120,
+        semi: true,
+        tabWidth: 2,
+        trailingComma: "es5",
+      },
+    ],
   },
   settings: {
     react: {
